@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Montserrat:wght@500&family=Roboto:wght@500&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+.main {
+  height: 100vh;
+  background-image: url(flat1.jpg);
+  background-position: center;
+  background-size: cover;
+  display: grid;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+}
+.main div {
+  width: 700px;
+  color: white;
+  margin-left: 300px;
+}
+.main div h2 {
+  font-size: 40px;
+}
+.s-all {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+.texts {
+  padding: 50px;
+}
+img {
+  margin-top: 5%;
+  object-fit: cover;
+  max-width: 50%;
+  margin-left: 40px;
+  margin-right: 30px;
+}
+ul li {
+  display: inline-block;
+}
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+}
+li {
+  padding: 0 12px;
+}
+button:hover {
+  transition: 0.5s;
+  background-color: rgb(41, 67, 212);
+}
+button {
+  color: white;
+  background-color: rgb(103, 125, 247);
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 2px;
+  transition: 0.5s;
+}
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(20, 43, 114);
+  height: auto;
+  padding: 100px 200px;
+  color: white;
+}
+.foot-2 {
+  display: block;
+  margin-bottom: 20px;
+  position: relative;
+  bottom: 0px;
+  margin-left: 200px;
+}
+.foot-2 a {
+  color: white;
+}
+.go-top {
+  margin-top: 20px;
+  color: rgb(144, 88, 88);
+  width: 70px;
+  transition: 0.5s;
+  text-decoration: underline;
+}
+.go-top:hover {
+  color: white;
+  transition: all 0.3s;
+}
